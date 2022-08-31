@@ -23,7 +23,7 @@ export const projects = [
     title: "Sticky Notes Pinboard",
     description:
       "This simple yet ellegent project is a note taking application. The notes app is made to resemble a sticky notes thumbtacked to a pinboard. This app was made with React legacy classes and some clever CSS",
-    image: "/images/sticky-notes.PNG",
+    image: "/images/sticky-notes.png",
     tags: ["React", "Javascript", "CSS"],
     source: "https://sticky-note-pinboard.netlify.app/",
     visit: "https://github.com/ldanneman/sticky-note-pinboard",
