@@ -12,13 +12,14 @@ const Hero = () => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br />
-        My Personal Portfolio
+        Hi There! <br />
+        Welcome To My Portfolio
       </SectionTitle>
-      <SectionText>this is my portfolio</SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
-        Learn More
-      </Button>
+      <SectionText>
+        My name is Lev Danneman and I am a fullstack developer with a strong
+        emphisis in React, React-Native, and NodeJS Development
+      </SectionText>
+      <Button onClick={() => (window.location = "/#about")}>Learn More</Button>
     </LeftSection>
   </Section>
 );

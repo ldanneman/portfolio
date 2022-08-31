@@ -1,5 +1,6 @@
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
 
 import { SocialIcons } from "../Header/HeaderStyles";
 import {
@@ -31,7 +32,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a tyime</Slogan>
+          {/* <Slogan>Innovating one project at a tyime</Slogan> */}
         </CompanyContainer>
         <SocialContainer>
           <SocialIcons href="https://github.com/ldanneman">
@@ -40,8 +41,8 @@ const Footer = () => {
           <SocialIcons href="hhttps://www.linkedin.com/in/levdanneman/">
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://github.com/ldanneman">
-            <AiFillInstagram size="3rem" />
+          <SocialIcons href="mailto:levdanneman@gmail.com">
+            <SiGmail size="3rem" />
           </SocialIcons>
         </SocialContainer>
       </SocialIconsContainer>

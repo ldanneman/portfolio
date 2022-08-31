@@ -64,7 +64,7 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>The purpose of this portfolio is</SectionText>
+      <SectionText>I excel at working in fast paced work enviroments. My collleagues describe me as nonjudgmental and willing to help in any scenario. I thrive in work enviroments that are cohesive and productive. In the past I have worked in small to large sized companies and see the value in both. Please feel free to reach out to me if you are in search of a developer.</SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, i) => (

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -54,8 +55,8 @@ const Header = () => (
       <SocialIcons href="hhttps://www.linkedin.com/in/levdanneman/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://github.com/ldanneman">
-        <AiFillInstagram size="3rem" />
+      <SocialIcons href="mailto:levdanneman@gmail.com">
+        <SiGmail size="3rem" />
       </SocialIcons>
     </Div3>
   </Container>

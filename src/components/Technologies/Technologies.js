@@ -19,7 +19,7 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I've worked with a number of techs</SectionText>
+    <SectionText>I've worked with a number of different web technologies, including:  React, React-Native, NodeJS, Express, GraphQL, SQL & MongoDB</SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
@@ -27,7 +27,7 @@ const Technologies = () => (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experience with <br />
-            React.js
+            React | React-Native
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,7 +37,7 @@ const Technologies = () => (
           <ListTitle>Back-end</ListTitle>
           <ListParagraph>
             Experience with <br />
-            Node and Databases
+            Node | Express | Databases
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -47,7 +47,7 @@ const Technologies = () => (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experience with <br />
-            tools like figma
+            Figma | Canva | CSS
           </ListParagraph>
         </ListContainer>
       </ListItem>
