@@ -13,7 +13,7 @@ export const projects = [
     title: "Pet Adoption",
     description:
       "One of the first full-stack applications I created; this pet adoption website is a simple example of an e-commerce website The user is able to browse the available pets on the site and can request to adopt a pet. Once requersted the admin can approve or decline the request. This application is created with React on the frontend and nodeJS on the backend.",
-    image: "/images/pet-page.png",
+    image: "/images/petadoption.png",
     tags: ["React", "NodeJS", "Express", "MongoDB"],
     source: "https://pet-adoption-inc.herokuapp.com/",
     visit: "https://github.com/ldanneman/pet-adoption",
